@@ -1,0 +1,33 @@
+.body {
+    height: 100%;
+    width: 100%;
+}
+  
+.avatar {
+height: 100px;
+width: 100px;
+margin: auto;
+display: block;
+}
+  
+.body {
+background-color: black;
+} 
+
+.body > h1, h2, h3 {
+color: white;
+text-align: center;
+}
+
+.home > img {
+height: 80px;
+width: 80px;
+position: absolute;
+bottom: 0px;
+left: 0%;
+}
+
+.home{
+    border: transparent;
+    background-color: transparent;
+}

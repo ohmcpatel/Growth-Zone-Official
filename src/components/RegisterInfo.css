@@ -1,0 +1,200 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+  }
+  
+  
+  
+  .logo {
+    position: absolute;
+    width: auto;
+    max-height: 100%;
+    left: 45px;
+    bottom: 70px;
+    margin-bottom: 360px;
+    padding-left: 60px;    
+    border-radius: 115px;
+  }
+  
+
+  .login {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    left: 110px;
+    top: 60px;
+  
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 36px;
+    text-align: center;
+    
+    color: #FFFFFF;
+  }
+  
+  .signup {
+    position: absolute;
+    width: 80px;
+    height: 19px;
+    right: 20px;
+    top: 2px;
+    
+    /* UI - 16 Medium */
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    
+    color: #9E00FF;
+  }
+
+  .fields{
+    padding-top: 30px;
+  }
+  
+  .email {
+    box-sizing: border-box;
+  
+    position: absolute;
+    align-items: center;
+    
+    /* Gray/01 */
+    
+    background: #F6F6F6;
+    /* Gray/02 */
+    
+    border: 1px solid #E8E8E8;
+    border-radius: 15px;
+    top: 540px;
+    display: flex;
+    float: 100px;
+    width: 343px;
+    height: 50px;
+    left:  35px;
+  }
+
+  .u_name{
+    box-sizing: border-box;
+  
+    position: absolute;
+    align-items: center;
+    
+    /* Gray/01 */
+    
+    background: #F6F6F6;
+    /* Gray/02 */
+    
+    border: 1px solid #E8E8E8;
+    border-radius: 15px;
+    top: 460px;
+    display: flex;
+    float: 100px;
+    width: 343px;
+    height: 50px;
+    left:  35px;
+    font-size: 28px;
+
+  }
+
+  ::placeholder{
+    color: #9E00FF;
+    font-weight: bold;
+    font-size: 28px;
+    padding-left: 10px;
+    padding-top: 20px;
+  }
+  
+  .password {
+    box-sizing: border-box;
+  
+    position: absolute;
+  
+    
+    /* Gray/01 */
+    
+    background: #F6F6F6;
+    /* Gray/02 */
+    
+    border: 1px solid #E8E8E8;
+    border-radius: 15px;
+    top: 600px;
+    margin: 0 auto;
+    display: flex;
+    float: 50px;
+    width: 343px;
+    height: 50px;
+    left: 35px;
+    margin-top: 20px;
+  }
+  
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: top;
+    bottom: 140px;
+    /*bottom: 100px;
+    position: top;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+  }
+  
+  
+  
+  /* Log In Button Code */
+  
+  .container {
+    min-height: 100vh;
+    justify-content: right;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    right: 50px;
+  }
+  
+  .log {
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 600;
+    margin: 0 10px;
+    width: 200px;
+    padding: 10px 0;
+    box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+    transition: 0.4s;
+  }
+  
+  .log {
+    top: 700px;
+    right: 90px;
+    position: absolute;
+  
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(104, 85, 224, 1);
+    
+    background: #9E00FF;
+    border-radius: 20px;
+    font-size: 22px;
+  }
+  
+  .log:hover {
+    color: white;
+    width: 220px;
+    box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+    background-color: rgba(104, 85, 224, 1);
+  }
+
+  .fyp {
+    padding-top: 780px;
+    padding-left: 115px;
+  }

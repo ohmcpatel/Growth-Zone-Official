@@ -1,0 +1,85 @@
+
+
+html, body {
+height: 100%;
+width: 100%;
+}
+
+.silver_star{
+width: 100px;
+height: 100px;
+margin: auto;
+display: inline-flexbox;
+padding: 20px;
+padding-top: 150px;
+}
+
+.second_avatar {
+height: 100px;
+width: 100px;
+margin: auto;
+display: block;
+padding-top: 140px;
+}
+
+body {
+background-color: black;
+}
+
+.timmy {
+color: white;
+text-align: center;
+}
+
+.chals > h2 {
+color: white;
+text-align: center;
+margin: 15px 60px 15px 60px;
+padding: 15px;
+margin-top: 130;
+border-radius: 50px;
+border-color: white;
+border-style: solid;
+background: #423442;
+transition: background-color 2s ease-out 100ms;
+}
+
+h2:hover {
+    background-color: #8e08bf;
+}
+
+
+.exit {
+margin: 0;
+position: relative;
+top: 10%;
+height: 50px;
+width: 100px;
+left: 40%;
+padding-right: 10px;
+}
+
+.exit > button {
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.setting > img{
+color: rgb(177, 24, 177);
+font-weight: bold;
+font-size: 18px;
+margin-left: -30px;
+background-color: transparent;
+border: transparent;
+}
+
+
+
+.setting > img{
+height: 75px;
+width: 75px;
+position: absolute;
+right: 0px;
+top: 0px;
+padding: 20px;
+}
